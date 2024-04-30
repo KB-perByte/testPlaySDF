@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: collection.dd
+  description: This is a dummy playbook proj
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: KB-perByte/testPlaySDF
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/KB-perByte/testPlaySDF
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: playbook-project
+  system: system:default/podcast
+  lifecycle: production
+  owner: user:default/calum.leavy
